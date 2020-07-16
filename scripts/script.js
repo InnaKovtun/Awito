@@ -52,8 +52,8 @@ const closeModal = event => {
         modalItem.classList.add('hide');
         document.removeEventListener('keydown', closeModal);
         modalSubmit.reset(); //очищение формы
-        modalFileBtn.textContent = srcModelImage;
-        modalImageAdd.src = textFileBtn;
+        modalFileBtn.textContent = textFileBtn;
+        modalImageAdd.src = srcModelImage;
         checkForm();
     } 
 }
